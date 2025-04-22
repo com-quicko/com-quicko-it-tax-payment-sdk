@@ -1,0 +1,37 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-module-flags: -target x86_64-apple-ios16.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name tax_payment_sdk
+// swift-module-flags-ignorable:  -interface-compiler-version 6.1
+import Foundation
+import SafariServices
+import Swift
+import SwiftUI
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public protocol EventListener {
+  func onEvent(event: [Swift.String : Any])
+}
+@_hasMissingDesignatedInitializers open class QuickoSDK {
+  public static let instance: tax_payment_sdk.QuickoSDK
+  open func setEnvironment(_ environment: tax_payment_sdk.Environment)
+  open func setAPIKey(_ apiKey: Swift.String) throws
+  @_Concurrency.MainActor open func open(controller: UIKit.UIViewController, options: [Swift.String : Any]) throws
+  open func reset()
+  open func setEventListener(_ eventListener: any tax_payment_sdk.EventListener)
+  @objc deinit
+}
+public enum Environment {
+  case dev
+  case uat
+  case prod
+  public static func == (a: tax_payment_sdk.Environment, b: tax_payment_sdk.Environment) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension tax_payment_sdk.Environment : Swift.Equatable {}
+extension tax_payment_sdk.Environment : Swift.Hashable {}

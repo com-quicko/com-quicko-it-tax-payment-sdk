@@ -1,0 +1,754 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "tax_payment_sdk",
+    "printedName": "tax_payment_sdk",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "tax_payment_sdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "tax_payment_sdk"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "tax_payment_sdk",
+        "declAttributes": [
+          "Preconcurrency"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SafariServices",
+        "printedName": "SafariServices",
+        "declKind": "Import",
+        "moduleName": "tax_payment_sdk"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "tax_payment_sdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "tax_payment_sdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EventListener",
+        "printedName": "EventListener",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onEvent",
+            "printedName": "onEvent(event:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15tax_payment_sdk13EventListenerP02onD05eventySDySSypG_tF",
+            "mangledName": "$s15tax_payment_sdk13EventListenerP02onD05eventySDySSypG_tF",
+            "moduleName": "tax_payment_sdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : tax_payment_sdk.EventListener>",
+            "sugared_genericSig": "<Self where Self : tax_payment_sdk.EventListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:15tax_payment_sdk13EventListenerP",
+        "mangledName": "$s15tax_payment_sdk13EventListenerP",
+        "moduleName": "tax_payment_sdk",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "tax_payment_sdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "tax_payment_sdk"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "tax_payment_sdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "QuickoSDK",
+        "printedName": "QuickoSDK",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "instance",
+            "printedName": "instance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "QuickoSDK",
+                "printedName": "tax_payment_sdk.QuickoSDK",
+                "usr": "s:15tax_payment_sdk9QuickoSDKC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15tax_payment_sdk9QuickoSDKC8instanceACvpZ",
+            "mangledName": "$s15tax_payment_sdk9QuickoSDKC8instanceACvpZ",
+            "moduleName": "tax_payment_sdk",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "QuickoSDK",
+                    "printedName": "tax_payment_sdk.QuickoSDK",
+                    "usr": "s:15tax_payment_sdk9QuickoSDKC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15tax_payment_sdk9QuickoSDKC8instanceACvgZ",
+                "mangledName": "$s15tax_payment_sdk9QuickoSDKC8instanceACvgZ",
+                "moduleName": "tax_payment_sdk",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setEnvironment",
+            "printedName": "setEnvironment(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Environment",
+                "printedName": "tax_payment_sdk.Environment",
+                "usr": "s:15tax_payment_sdk11EnvironmentO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15tax_payment_sdk9QuickoSDKC14setEnvironmentyyAA0G0OF",
+            "mangledName": "$s15tax_payment_sdk9QuickoSDKC14setEnvironmentyyAA0G0OF",
+            "moduleName": "tax_payment_sdk",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAPIKey",
+            "printedName": "setAPIKey(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15tax_payment_sdk9QuickoSDKC9setAPIKeyyySSKF",
+            "mangledName": "$s15tax_payment_sdk9QuickoSDKC9setAPIKeyyySSKF",
+            "moduleName": "tax_payment_sdk",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "open",
+            "printedName": "open(controller:options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15tax_payment_sdk9QuickoSDKC4open10controller7optionsySo16UIViewControllerC_SDySSypGtKF",
+            "mangledName": "$s15tax_payment_sdk9QuickoSDKC4open10controller7optionsySo16UIViewControllerC_SDySSypGtKF",
+            "moduleName": "tax_payment_sdk",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "Custom"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "reset",
+            "printedName": "reset()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15tax_payment_sdk9QuickoSDKC5resetyyF",
+            "mangledName": "$s15tax_payment_sdk9QuickoSDKC5resetyyF",
+            "moduleName": "tax_payment_sdk",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setEventListener",
+            "printedName": "setEventListener(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EventListener",
+                "printedName": "any tax_payment_sdk.EventListener",
+                "usr": "s:15tax_payment_sdk13EventListenerP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15tax_payment_sdk9QuickoSDKC16setEventListeneryyAA0gH0_pF",
+            "mangledName": "$s15tax_payment_sdk9QuickoSDKC16setEventListeneryyAA0gH0_pF",
+            "moduleName": "tax_payment_sdk",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:15tax_payment_sdk9QuickoSDKC",
+        "mangledName": "$s15tax_payment_sdk9QuickoSDKC",
+        "moduleName": "tax_payment_sdk",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Environment",
+        "printedName": "Environment",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "dev",
+            "printedName": "dev",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(tax_payment_sdk.Environment.Type) -> tax_payment_sdk.Environment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Environment",
+                    "printedName": "tax_payment_sdk.Environment",
+                    "usr": "s:15tax_payment_sdk11EnvironmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "tax_payment_sdk.Environment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Environment",
+                        "printedName": "tax_payment_sdk.Environment",
+                        "usr": "s:15tax_payment_sdk11EnvironmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15tax_payment_sdk11EnvironmentO3devyA2CmF",
+            "mangledName": "$s15tax_payment_sdk11EnvironmentO3devyA2CmF",
+            "moduleName": "tax_payment_sdk",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "uat",
+            "printedName": "uat",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(tax_payment_sdk.Environment.Type) -> tax_payment_sdk.Environment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Environment",
+                    "printedName": "tax_payment_sdk.Environment",
+                    "usr": "s:15tax_payment_sdk11EnvironmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "tax_payment_sdk.Environment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Environment",
+                        "printedName": "tax_payment_sdk.Environment",
+                        "usr": "s:15tax_payment_sdk11EnvironmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15tax_payment_sdk11EnvironmentO3uatyA2CmF",
+            "mangledName": "$s15tax_payment_sdk11EnvironmentO3uatyA2CmF",
+            "moduleName": "tax_payment_sdk",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "prod",
+            "printedName": "prod",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(tax_payment_sdk.Environment.Type) -> tax_payment_sdk.Environment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Environment",
+                    "printedName": "tax_payment_sdk.Environment",
+                    "usr": "s:15tax_payment_sdk11EnvironmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "tax_payment_sdk.Environment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Environment",
+                        "printedName": "tax_payment_sdk.Environment",
+                        "usr": "s:15tax_payment_sdk11EnvironmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15tax_payment_sdk11EnvironmentO4prodyA2CmF",
+            "mangledName": "$s15tax_payment_sdk11EnvironmentO4prodyA2CmF",
+            "moduleName": "tax_payment_sdk",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Environment",
+                "printedName": "tax_payment_sdk.Environment",
+                "usr": "s:15tax_payment_sdk11EnvironmentO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Environment",
+                "printedName": "tax_payment_sdk.Environment",
+                "usr": "s:15tax_payment_sdk11EnvironmentO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15tax_payment_sdk11EnvironmentO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s15tax_payment_sdk11EnvironmentO2eeoiySbAC_ACtFZ",
+            "moduleName": "tax_payment_sdk",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15tax_payment_sdk11EnvironmentO9hashValueSivp",
+            "mangledName": "$s15tax_payment_sdk11EnvironmentO9hashValueSivp",
+            "moduleName": "tax_payment_sdk",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15tax_payment_sdk11EnvironmentO9hashValueSivg",
+                "mangledName": "$s15tax_payment_sdk11EnvironmentO9hashValueSivg",
+                "moduleName": "tax_payment_sdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15tax_payment_sdk11EnvironmentO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s15tax_payment_sdk11EnvironmentO4hash4intoys6HasherVz_tF",
+            "moduleName": "tax_payment_sdk",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:15tax_payment_sdk11EnvironmentO",
+        "mangledName": "$s15tax_payment_sdk11EnvironmentO",
+        "moduleName": "tax_payment_sdk",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "tax_payment_sdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "tax_payment_sdk"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "tax_payment_sdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "tax_payment_sdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "tax_payment_sdk"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "tax_payment_sdk"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/nachiketa\/code\/work\/org.quicko.tax_payment_gateway\/feature-native-mobile-sdk\/org.quicko.tax-payment-gateway\/common\/ios\/tax-payment-sdk\/tax-payment-sdk\/lib\/QuickoSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4733,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nachiketa\/code\/work\/org.quicko.tax_payment_gateway\/feature-native-mobile-sdk\/org.quicko.tax-payment-gateway\/common\/ios\/tax-payment-sdk\/tax-payment-sdk\/lib\/beans\/Event.swift",
+      "kind": "StringLiteral",
+      "offset": 494,
+      "length": 50,
+      "value": "\"org.quicko.tax_payment_gateway.challan.submitted\""
+    },
+    {
+      "filePath": "\/Users\/nachiketa\/code\/work\/org.quicko.tax_payment_gateway\/feature-native-mobile-sdk\/org.quicko.tax-payment-gateway\/common\/ios\/tax-payment-sdk\/tax-payment-sdk\/lib\/beans\/Event.swift",
+      "kind": "StringLiteral",
+      "offset": 658,
+      "length": 58,
+      "value": "\"org.quicko.tax_payment_gateway.challan.payment_initiated\""
+    },
+    {
+      "filePath": "\/Users\/nachiketa\/code\/work\/org.quicko.tax_payment_gateway\/feature-native-mobile-sdk\/org.quicko.tax-payment-gateway\/common\/ios\/tax-payment-sdk\/tax-payment-sdk\/lib\/beans\/Event.swift",
+      "kind": "StringLiteral",
+      "offset": 827,
+      "length": 50,
+      "value": "\"org.quicko.tax_payment_gateway.session.cancelled\""
+    },
+    {
+      "filePath": "\/Users\/nachiketa\/code\/work\/org.quicko.tax_payment_gateway\/feature-native-mobile-sdk\/org.quicko.tax-payment-gateway\/common\/ios\/tax-payment-sdk\/tax-payment-sdk\/lib\/beans\/Event.swift",
+      "kind": "StringLiteral",
+      "offset": 979,
+      "length": 50,
+      "value": "\"org.quicko.tax_payment_gateway.session.completed\""
+    }
+  ]
+}
