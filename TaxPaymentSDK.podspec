@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
                       DESC
   
   spec.homepage     = "https://github.com/com-quicko/com-quicko-it-tax-payment-sdk"
-  spec.license      = { :type => "Commercial", :text => "Copyright © 2025 Quicko. All rights reserved." }
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author       = { "Quicko Developer" => "developer@quicko.com" }
   
   spec.platform     = :ios, "13.0"
